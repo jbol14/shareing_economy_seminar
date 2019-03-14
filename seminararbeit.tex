@@ -1,0 +1,375 @@
+\documentclass[a4paper]{scrartcl}
+
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{blindtext}
+\usepackage{multicol}
+\usepackage{url}
+\usepackage{abstract}
+\usepackage{graphicx}
+
+\newcommand{\blankpage}{
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+}
+
+\urldef\myurl\url{https://www.peer-sharing.de/data/peersharing/user_upload/Dateien/
+Onlinegest%C3%BCtztes_Peer-to-Peer_Sharing_in_Deutschland_
+November_2017.pdf}
+
+\clubpenalty10000
+\widowpenalty10000
+\displaywidowpenalty=10000
+
+\author{Janek Boll}
+%\matrikelnummer{447344}
+%\dozent{Prof. Dr. Andreas Rausch}
+%\betreuer{Dirk Herrling, M.Sc.}
+\date{\today}
+
+\begin{document}
+	
+\input{titlepage.tex}
+
+\blankpage
+
+\input{erklaerung.tex}
+\newpage
+
+\blankpage
+	%Center Abstract vertically
+\topskip0pt
+\vspace*{\fill}
+\begin{abstract}
+	Der Begriff \textit{Sharing Economy} hat in den letzten Jahren viel mediale Aufmerksamkeit erhalten und ist mit einer Vielzahl von Hoffnungen verbunden. W\"ahrend einerseits erwartet wird, dass mit Sharing Economy Gesch\"aftsmodellen ein umweltschonenderes und nachhaltigeres Wirtschaften einhergeht, wird Sharing Economy andererseits von Investoren als aufstrebender Markt angesehen, in dem auf absehbare Zeit hohe Ums\"atze zu erzielen sind. Im Rahmen dieser Arbeit soll ein Gesch\"aftsmodell erabeitet werden. Dazu wird zun\"achst der Begriff Sharing Economy gekl\"art und auf dessen Vor- und Nachteile eingegangen. Anschlie\ss end wird die Marktlage in Deutschland untersucht, und welche Faktoren ausschlaggebend sind, um Kunden zu motivieren, an Sharing Economy Angeboten teilzunehmen. Im letzten Teil soll schlie\ss lich ein Gesch\"aftsmodell erarbeitet werden, dass es Kunden erm\"oglicht, Gebrauchsgegenst\"ande untereinander zu leihen und verleihen.
+\end{abstract}
+\vspace*{\fill}
+
+\newpage
+\tableofcontents
+\newpage
+
+\begin{multicols}{2}
+		
+	\section{Sharing Economy}
+		In diesem Teil der Seminararbeit soll ein grundlegendes Verst\"andnis f\"ur den Begriff \textit{Sharing Economy} hergestellt werden. Dazu wird zun\"achst darauf eingegangen wie verschiedene Autoren den Begriff definieren und warum Gesch\"aftsmodelle aus dem Bereich der Sharing Economy im letzten Jahrzehnt stark zugenommen haben. Anschlie\ss end werden einige Beispiel f\"ur Start-Ups aus dem Bereich der Sharing Economy gegegeben und wie etablierte Konzerne Sharing Economy Modelle f\"ur sich nutzen. Abschlie\ss end werden Vor- und Nachteile der Sharing Economy aufgezeigt.
+	
+		\subsection{Was ist die Sharing Economy?}
+			Der Begriff  \textit{Sharing Economy} bezeichnet einen wirtschaftlichen Trend mit enormem Wachstumspotenzial. So sch\"atzt die Wirtschaftspr\"ufungs- und Beratungsgesellschaft PricewaterhouseCoopers, dass weltweit bis 2025 j\"ahrliche Einnahmen von 335 Milliarden US-Dollar mit Sharing Economy-Gesch\"aftsmodellen erzeugt werden k\"onnen \cite{matzler2014}. Sharing Economy stellt dabei einen Oberbegriff dar, der diverse Gesch\"aftsmodelle, die auf einer geteilten Nutzung von G\"utern und Ressourcen beruhen, zusammenfasst. Teilen meint in diesem Zusammenhang alles, was Zugang durch ein Zusammenlegen von Ressourcen, Produkten oder Dienstleistungen erm\"oglicht. Diese k\"onnen im Kontext der Sharing Economy sowohl von Privatpersonen als auch von Firmen zur Verf\"ugung gestellt werden. Die Autoren Rachel Botsman und Roo Rogers unterteilen den Begriff Sharing Economy in drei Hauptaspekte: \textit{Produkt-Dienstleisuntgssysteme}, \textit{Redistributionsm\"arkte} und \textit{kollaborative Lebensstile} \cite{matzler2014}.
+			\textit{Produkt-Dienstleistungssysteme} stellen Gesch\"aftsmodelle dar, bei denen dem Nutzer der Zugang zu Ressourcen oder G\"utern durch eine geteilte Nutzung ebendieser erm\"oglicht wird. Der Nutzer kann Ressourcen also nutzen, ohne diese zu besitzen. Beispiele f\"ur Produkt-Dienstleistungssysteme sind beispielsweise Carsharing-Plattformen wie \textit{car2go}, das \textit{Hilti-Flottenmanagement} oder Online-Portale, die das Mieten und Vermieten von Gebrauchsgegenst\"anden durch Privatpersonen erm\"oglichen (z.B. \textit{Frents}, \textit{Sharely}).
+			\textit{Redistributionsm\"arkte} stellen Gesch\"aftsmodelle dar, bei denen die Weitergabe von G\"utern im Vordergrund steht. Dabei handelt es sich in den meisten F\"allen um Gebrauchtwaren, aber auch Marktpl\"atze, in denen Nutzer selbstgemachte Waren anbieten k\"onnen oder Portale, die Privatpersonen einen Zugang zum Markt erm\"oglichen fallen in diese Kategorie. Bei der Weitergabe muss es sich nicht zwangsl\"aufig um einen Verkauf handeln, auch tauschen oder verschenken ist m\"oglich. Beispiele f\"ur \textit{Redistributionsm\"arkte} sind \textit{eBay, Alles-und-Umsonst} oder \textit{Etsy}.
+			Im Bereich der \textit{kollaborativen Lebensstile} gibt es eine gro\ss e Bandbreite an Gesch\"aftsmodellen. So ist die Online-Enzyklop\"adie \textit{Wikipedia}, bei der Nutzer ihr Wissen nutzen um die Artikel zu schreiben und zu korrigieren und so eine potente Enzyklop\"adie erstellen, genauso den kollaborativen Lebensstilen zuzuordnen wie das Quellcode-Verwaltungsportal \textit{Github}, die Crowdfunding-Plattform \textit{Kickstarter} oder Portale, bei denen Privatpersonen ihre Kompetenzen in Form von Dienstleistungen zur Verf\"ugung stellen (z.B. \textit{TaskRabbit}, \textit{MechanicalTurks}, \textit{WithLocals}).\newline
+			Eine komplement\"are Definition geben die Autoren Juho Hamari, Mimmi Sj\"oklint und Antti Ukkonen, die Sharing Economy als prim\"ar technologisches Ph\"anomen ansehen und Collaborative Consumption (synonym zum Begriff Sharing Economy bei anderen Autoren) als \glqq\textit{Aktivit\"at des Erhaltens, Gebens, oder Teilens des Zugangs zu G\"utern oder Dienstleistungen zwischen Gleichrangigen, koordiniert durch gemeinschaftsbasierte Online-Dienste\grqq} definieren \cite{doi:10.1002/asi.23552}. Hamari et al. identifizieren vier Kernaspekte der Sharing Economy: \textit{Online-Kollaboration}, \textit{Sozialer Handel}, \textit{Teilen Online} und \textit{ideologische Ansichten}. \textit{Online-Kollaboration} bezieht sich auf die durch Fortschritte in der Kommunikationstechnik erh\"ohte Menge an Nutzer-generiertem Inhalt und die ver\"anderten M\"oglichkeiten, Informationen zu erzeugen und zu konsumieren. Beispiele sind \textit{Wikipedia} oder \textit{Github}.
+			\textit{Sozialer Handel} bezeichnet eine durch soziale Medien vermittelte Form des Handels unter gleichrangigen Teilnehmern.
+			\textit{Teilen Online} bezieht sich zum einen auf soziale Netzwerke und meint in diesem Kontext das Teilen  von Statusupdates und pers\"onlichen Informationen, zum anderen auf ein tats\"achliches Teilen von G\"utern und  Dienstleistungen, vermittelt durch Online-Plattformen wie \textit{Couchsurfing}, \textit{car2go} oder \textit{fairleihen}. 
+			\textit{Ideologische Ansichten} meint im Kontext  der Arbeit von Hamari et al. einerseits, dass zunehmend soziale Medien genutzt werden um ideologische Ansichten zu verbreiten. So wurden w\"ahrend des Pr\"asidentschaftswahlkampfes 2008 in den USA massiv soziale Medien genutzt um potentielle W\"ahler zu erreichen. Andererseits sind viele Sharing Economy Angebote stark ideologisch gepr\"agt \cite{doi:10.1002/asi.23552}. 
+	 
+	 
+		\subsection{Gr\"unde f\"ur die Zunahme von Sharing Economy}
+			Im Rahmen der konsumkritischen Diskussion der 1960er Jahre, sowie den nachfolgenden Debatten über Grenzen des Wachstums und alternativer Lebensstile, wurden verschiedene Konzepte zur Reparatur des bestehenden Systems und radikale Gegenentw\"urfe dazu entwickelt\cite{heinrichs2012}. Der erst in jüngerer Zeit in englischsprachigen Medien gepr\"agte Begriff der Sharing Economy greift einige dieser Konzepte auf. Obwohl die Wurzeln einer \"Okonomie der geteilte Nutzung von G\"utern in den 60er Jahren des 20. Jahrhunderts liegen, sind Gesch\"aftsmodelle, die diese Idee umsetzen, ein Ph\"anomen des letzten Jahrzents. Gr\"unde daf\"ur sind haupts\"achlich in den Fortschritten der Kommunikationstechnologie, wie dem Aufkommen sozialer Medien im Web 2.0 zu sehen \cite{doi:10.1002/asi.23552, heinrichs2012}. Diese Fortschritte erm\"oglichen eine  soziale Vernetzung \"uber den unmittelbaren Bekanntenkreis hinaus und erleichtern so insbesondere eine Vernetzung von Personen, die Bereit sind ihren Besitz mit anderen zu teilen \cite{matzler2014}. Aber nicht nur technologische Fortschritte, sondern auch grundlegende gesellschaftliche Ver\"anderungen tragen zu einer Zunahme von Sharing Economy Angeboten bei. So sehen die Autoren Harald Heinrichs und Heiko Grunenberg einen weiteren Grund f\"ur die Zunahme von Sharing Economy Gesch\"aftsmodellen in einem gesteigerten Umwelt- und Nachhaltigkeitsbewusstsein der Konsumenten sowie einer Neubewertung materieller Wertvorstellungen \cite{heinrichs2012}.
+	
+		\subsection{Beispiele f\"ur Start-Ups}
+			Da die Sharing Economy in ihrer konkreten Form ein Ph\"anomen des letzten Jahrzehnts darstellt wird die Marktlandschaft von Start-Ups dominiert. Die Gesch\"aftsmodelle erstrecken sich von der Digitalisierung klassischer Gesch\"aftsmodelle bis zu disruptiven Formen des Wirtschaftens, die ohne moderne Kommunikationstechnologie nicht umsetzbar w\"aren. Zu den klassischen Gesch\"aftmodellen geh\"oren beispielsweise Kleinanzeigenportale(\textit{markt.de, Quoka}). Das Konzept der Kleinanzeige ist weder neu noch innovativ, erlebt jedoch im Web 2.0 einen Aufschwung, da sich die Reichweite von Kleinanzeigen stark erh\"oht. Zu den disruptiven Gesch\"aftsmodellen geh\"oren Crowdfunding Plattformen (\textit{Kickstarter}), Peer-to-Peer-Finanzdienstleistungen (\textit{Auxmoney, Kiva}), Carsharing Plattformen (\textit{car2go, Zipcar}) oder Portale zu Mieten und Vermieten von Gebrauchsgegenst\"anden, bei denen der Besitz eines Gutes durch Zugang zu diesem ersetzt wird (z.B. \textit{Frents, Sharely}). Sharing Economy Angebote erstrecken sich \"uber eine Vielzahl von Gesch\"aftsfeldern, so gibt es Angebote in den Bereichen Mobilit\"at, Ern\"ahrung, Kleidung, \"Ubernachtung und Gebrauchsgegenst\"ande.
+	
+	
+		\subsection{Adaption durch etablierte Konzerne }
+			Sharing Economy Gesch\"aftsmodelle wie das Weiterverkaufen von gebrauchten Gegenst\"anden oder das Teilen von nur selten genutzten G\"utern bedrohen den Absatzmarkt etablierter Marken und Konzerne. Um diesem potentiell schrumpfenden Absatzmarkt entgegen zu wirken gehen etablierte Konzerne dazu \"uber, selbst Sharing Economy Konzepte umzusetzen. Beispielsweise hat die Daimler AG in Zusammenarbeit mit der Autovermietung Europcar den Dienst car2go ins Leben gerufen. Dabei handelt es sich um eine Carsharing Plattform, bei der Mobilit\"at als Service angeboten wird. Dadurch ist es der Daimler AG m\"oglich, das Gesch\"aft \"uber den klassischen Absatz von Fahrzeugen durch Verkauf oder Leasing hinaus zu erweitern. Einen \"ahnlichen Weg hat Hilti, ein Hersteller von Elektrowerkzeugen, eingeschlagen. Hier werden die Werkzeuge nicht mehr verkauft, sondern als Komplettpaket vermietet, so dass f\"ur den Kunden ein geringerer Aufwand entsteht da die Verwaltung und Wartung potentiell inkompatibler Werkzeuge entf\"allt.
+			Der schwedische M\"obelhersteller Ikea und der US-amerikanische Bekleidungshersteller Patagonia haben Portale eingerichtet die ihren Kunden das Weiterverkaufen ihrer Produkte erm\"oglichen. Diese Entscheidung erscheint zun\"achst widerspr\"uchlich, hat beiden Unternehmen aber Zugewinne in der \"offentlichen Wahrnehmung  als auf Nachhaltigkeit bedachte Unternehmen beschert. Zus\"atzlich haben sie ihre Absatzm\"oglichkeiten sogar noch erh\"oht, da der Kunde mit dem Verkauf der alten Produkte Platz f\"ur neue schafft \cite{matzler2014}.
+			
+	
+	
+		\subsection{Vorteile}
+			Sharing Economy Gesch\"aftsmodelle bieten den Nutzern offensichtliche Vorteile. So entfallen hohe Anschaffungskosten in Produkt-Dienstleistungssystemen, der Nutzer zahlt ausschlie\ss lich die Nutzung einer Ressource. Ebenso entfallen Haltungs- und Wartungskosten. Des Weiteren ist ein Teilen von G\"utern unter den Nutzern unter dem Gesichtspunkt des Umweltschutzes sinnvoll. Die geteilte Nutzung von G\"utern schont wertvolle Ressourcen. Gerade im Bereich der Consumer-Electronics, die in der Produktion seltene Ressourcen ben\"otigen deren Abbau schwerwiegende Folgen f\"ur die Umwelt haben, ist es sinnvoll diese G\"uter zu teilen und so mit einer geringeren Produktion die gleiche Nachfrage zu bedienen. Auch der Weiterverkauf von G\"utern in Redistributionsm\"arkten bietet diese Vorteile. Die Anschaffungskosten f\"ur der Verbraucher sind geringer als ein Neukauf, der Verk\"aufer verdient Geld mit dem Verkauf und der Kauf eines gebrauchten Gutes schont ben\"otigte Ressourcen da die Nachfrage nach Neuware geringer bleibt \cite{matzler2014}.
+	
+	
+		\subsection{Schattenseiten}
+			Obwohl Sharing Economy diverse Vorteile f\"ur Nutzer bietet gibt es auch Schattenseiten. Diese zeigen sich vor allem im Bereich der Dienstleistungen. Portale wie AirBnB stehen in der Kritik, da sie im Verdacht stehen in Gro\ss st\"adten mit prek\"arer Wohnraumsituation das Angebot an bezahlbarem Wohnraum weiter zu verknappen. Es ist zu beobachten, dass Wohnraum vom Markt verschwindet und vom Besitzer statt zur langfristigen Vermietung dauerhaft als Ferienwohnung angeboten wird und so die ohnehin prek\"are Wohnungssituation, gerade f\"ur Menschen mit geringem Einkommen, weiter versch\"arft wird. Ein weiterer Kritikpunkt an diesem Modell ist, dass Nutzer sich nicht an die strengen Richtlinien im Gastgewerbe halten m\"ussen und so der Wettbewerb zu lasten des klassischen Hotelgewerbes verzerrt wird. Analog verzerren Fahrdienstleistungen wie Uber den Wettbewerb im Personenbef\"orderungsgewerbe, da Fahrer die strengeren Regulierungen, die f\"ur Taxifahrer gelten, umgehen. Als weiterer Kritikpunkt ist anzuf\"uhren, dass in vielen Dienstleistungsbereichen die Bezahlung der Arbeit zu gering ist. So reichen die Einnahmen eines Fahrers f\"ur \textit{Uber} gerade aus, um Benzinkosten und Verschlei\ss  zu decken. Zus\"atzlich verf\"ugen die meisten Fahrer nicht \"uber eine erforderliche gewerbliche Versicherung, so dass sie im Falle eines Unfalls ohne Versicherungsschutz dastehen. Im Bereich der Mikroarbeit (Taskrabbit, Mechanical Turk) werden Handwerker gen\"otigt die Preise so weit zu dr\"ucken dass lediglich die unmittelbaren Kosten gedeckt werden, andere Kosten, wie Krankenversicherung oder Altersvorsorge, k\"onnen nicht auf den Kunden umgelegt werden \cite{Malhotra:2014:DSS:2684442.2668893}. Eine Bildugung von Rücklagen ist unter diesen Umst\"anden nahezu unm\"oglich und selbst ein kurzer Ausfall, zum Beispiel krankheitsbedingt oder aufgrund einer geringen Nachfrage, hat potentiell ruin\"ose Folgen. Die Tatsache, dass etablierte Konzerne Gesch\"aftsmodelle der Sharing Economy aufgreifen zeigt, dass diese Konzerne besorgt um ihre Absatzm\"arkte sind. Schrumpfende Absatzm\"arkte bewirken einen R\"uckgang in der Produktion, was schlie\ss lich zu einem Verlust von Arbeitspl\"atzen f\"uhren kann. Des Weiteren entstehen Verluste im Bereich der Steuereinnahmen, da ein verringerter Absatz von Neuwaren zur Folge hat, dass beispielsweise weniger Mehrwert-, Umsatz- oder Einfuhrumsatzsteuer gezahlt wird. Es ist daher naheliegend, dass eine weitere Verbreitung von Sharing Economy Gesch\"aftsmodellen einen wirtschaftsd\"ampfenden Effekt haben kann. Die Auswirkungen der Sharing Economy auf die Volkswirtschaft sind derzeit jedoch nicht ausreichend untersucht und stellen einen lohnenden Ansatz f\"ur weitere Forschung dar.
+			
+	
+	
+	\section{Markt\"ubersicht}
+		In diesem Abschnitt soll der deutsche Markt untersucht werden. Zun\"achst wird dargelegt welche Konsumenten Sharing Economy Gesch\"aftsmodelle akzeptieren. Im weiteren Verlauf werden 78 Markteilnehmer untersucht und die Ergebnisse ausgewertet.
+	
+		\subsection{Akzeptanz von Sharing Economy Modellen}
+			Eine im Jahre 2012 von Harald Heinrichs und Heiko Grunenberg durchgef\"uhrte empirische Repr\"asentativstudie ergab, dass weite Teile der Bev\"olkerung bereits Erfahrung mit alternativen Besitz- und Konsumformen gemacht haben. So haben 55\% der Befragten bereits Dinge auf dem Flohmarkt gekauft oder verkauft und 52\% haben bereits im Internet Dinge von privat ge- oder verkauft. Ebenso hat ein Viertel der Befragten angegeben bereits selten genutzte Dinge, wie zum Beispiel Gartenger\"ate, gemietet zu haben \cite{heinrichs2012}. Heinrichs und Grunenberg stellen einen starken positiven Zusammenhang zwischen Alter, Bildung und Einkommen mit der Nutzung alternativer Besitz- und Konsumformen her: J\"ungere Personen mit h\"oherem Bildungsgrad und h\"oherem Einkommen nutzen tendenziell st\"arker Verleihsysteme und das Internet, um Dinge zu kaufen und verkaufen oder Privatzimmer anzumieten oder zu vermieten. Ebenso existiert ein positiver Zusammenhang zwischen postmaterialistischen Wertevorstellungen wie zum Beispiel einer hohen Wertsch\"atzung f\"ur Kreativit\"at und ein abwechslungsreiches Leben, und der Nutzung alternativer Besitz- und Konsumformen \cite{heinrichs2012}. Heinrichs und Grunenberg schlie\ss en aus den Ergebnissen ihrer Studie, dass zwar kein {\glqq revolution\"arer Umbruch einer individualistischen zu einer kollaborativen Konsumkultur\grqq} erkennbar sei, dennoch seien alternative Besitz- und Konsumformen mehr als ein Nischenph\"anomen \cite{heinrichs2012}. Die \"Okonomie des Teilens und kollaborativer Konsum seien ein sich weiterentwickelndes und -verbreitendes Ph\"anomen, dass zugleich Herausforderung und Chance f\"ur Wirtschaftsakteure darstelle \cite{heinrichs2012}.
+		
+		\subsection{Methodik}
+			Angelehnt an die Arbeit von Hamari et al. werden 78 Unternehmen untersucht und in die Kategorien \textit{Produkt-Dienstleistungssystem}, \textit{Redistributionsmarkt} oder \textit{kollaborativer Lebensstil} eingeordnet. Da, wie bereits erw\"ahnt, Sharing Economy in seiner praktischen Auspr\"agung stark auf Fortschritten in der Kommunikationstechnologie und einer damit verbundenen zunehmenden Vernetzung beruht, werden ausschlie\ss lich Marktteilnehmer, deren Kerngesch\"aft auf einem online-gest\"utzten Austausch beruhen, untersucht. So werden zum Beispiel Webseiten, die lokale Antiquit\"aten- oder Flohm\"arkte bewerben, nicht untersucht. Als Datenquelle dient dabei das Portal \textit{peer-sharing.de}
+			\footnote{\myurl, abgerufen am 23.02.2019}
+			, eine vollst\"andige Auflistung der untersuchten Marktteilnehmer findet sich in Anhang A. Zur Untersuchung der Markteilnehmer wird folgenderma\ss en vorgegangen: Die Webseite wird besucht und alle verf\"ugbaren Informationen werden analysiert. Anhand der verf\"ugbaren Informationen wird das Gesch\"aftsmodell in eine der drei Kategorien (\textit{Produkt-Dienstleistungssystem, Redistributionsmarkt, kollaborativer Lebensstil}) eingeordnet. Dabei kam es in zwei F\"allen vor, dass Anbieter in mehrere Kategorien fallen, zum Beispiel weil neben Kauf/Verkauf auch Mieten/Vermieten und Schenken/Verschenken oder Tauschen m\"oglich sind. Um die Daten weiter zu strukturieren werden die Gesch\"aftsfelder \textit{Mobilit\"at, \"Ubernachten, Gebrauchsgegenst\"ande, Ern\"ahrung} und \textit{Kleidung} aus der Quelle \"ubernommen. Marktteilnehmer, die mehreren Kategorien zugeordnet werden, wurden in der Gesamt\"ubersicht einfach gez\"ahlt, in der \"Ubersicht \"uber ihr Gesch\"aftsfeld wurden diese Teilnehmer f\"ur jede Kategorie, die sie abdecken, gez\"ahlt.
+		\subsection{Aufbereitung der Daten}
+			Einige der in der Quelle aufgef\"uhrten Anbieter haben inzwischen ihren Betrieb eingestellt oder ihr Gesch\"aftsmodell ver\"andert und werden daher nicht ausgewertet. Eine Liste der nicht behandelten Portale findet sich in Anhang A, Tabelle 6.
+		\subsection{Auswertung}
+			\"Uber alle Gesch\"afstfelder hinweg stellt der Bereich {\glqq Mieten und Vermieten\grqq} mit 31 Angeboten das h\"aufigste Angebot dar. Am h\"aufigsten sind dabei Angebote, bei denen \"Ubernachtungsm\"oglichkeiten, Fahrzeuge oder Parkpl\"atze gemietet und vermietet werden.\\
+			\noindent
+			Mit 17 Angeboten ist der Bereich {\glqq geteilte Nutzung\grqq} der n\"achst kleinere Bereich, wobei hier haupts\"achlich Angebote f\"ur Mitfahrgelegenheiten zu finden sind. Aber auch Wohnraum und Gartenfl\"ache kann geteilt genutzt werden.\\
+			\noindent
+			Ein weiterer gro\ss er Bereich ist \glqq Kaufen/Verkaufen\grqq, mit 16 Angeboten. Hier finden sich neben Kleinanzeigenportalen f\"ur Gebrauchsgegenst\"ande vor allem Anbieter von Second-Hand-Kleidung.\\
+			\noindent
+			Im Detail ergibt sich f\"ur die Gesch\"aftsfelder \textit{Mobilit\"at, \"Ubernachtung, Gebrauchsgegenst\"ande, Kleidung} und \textit{Ern\"ahrung} das folgende Bild:\\ 
+			\noindent
+			Der Teilbereich \textit{Mobilit\"at} stellt mit 37,2\% der Marktteilnehmern (29 Anbieter)  den gr\"o\ss ten Teilbereich dar. Innerhalb dieses Teilbereichs bieten 55,2\% (16 Anbieter)   Produktdienstleistungssysteme wie Car- und Parkplatzsharing an. 44,8\% der Marktteilnehmer (13 Anbieter) bieten Gesch\"aftsmodelle aus dem Bereich der kollaborativen Lebensstile, hierzu z"ahlen haupts\"achlich Portale für die Vermittlung von Mitfahrgelegenheiten (7 Teilnehmer) und Speditionsdienstleistungen (4 Teilnehmer).\newline
+			\noindent
+			Den n\"achst kleineren Teilbereich stellt mit 24,4\% Marktanteil, oder 19 Marktteilnehmern der Bereich \textit{Gebrauchsgegenst\"ande} dar. Innerhalb dieses Teilbereichs entfallen 57,9\%  der Anbieter auf Redistributionsm\"arkte wie das Auktionshaus \textit{eBay} und diverse Kleinanzeigenportale (z.B. \textit{Freecycle, gebraucht.de, Alles-und-umsonst}) (11 Anbieter), 31,6\% der Anbieter bieten Gesch\"aftsmodelle aus dem Bereich der Produkt-Dienstleistungssysteme an, dabei handelt es sich um Portale zum Mieten und Vermieten von Gegenst\"anden (z.B. \textit{Frents, Sharely, Utiluru}) und 2 Anbieter oder 10,5\% der Marktteilnehmer, bieten Gesch\"aftsmodelle aus dem Bereich der kollaborativen Lebensstile an. Dabei handelt es sich zum einen um das Portal \textit{Fairleihen}, dass das Leihen und Verleihen von Gebrauchsgegenst\"anden im Raum Berlin erm\"oglicht und zum anderen um das Portal \textit{nebenan.de}, dass neben Verkauf und Vermietung auch eine M\"oglichkeit zum Verleihen von Gegenst\"anden bietet. \newline
+			\noindent
+			Der Teilbereich \textit{\"Ubernachtung} hat ebenfalls 24,4\% Marktanteil (19 Anbieter), wobei davon 52,4\% der Anbieter Geschäftsmodelle aus dem Bereich der Produkt-Dienstleistungssystem umsetzen. Dabei handelt es sich um Portale, die sich der Vermittlung von Privatzimmern und -h"ausern widmen (z.B. \textit{AirBnB, 9flats}). 47,6\% der Markteilnehmer bieten Dienstleistungen im Bereich der kollaborativen Lebensstile an. Dabei handelt es sich einerseits um Portale, die einen tempor\"arern H\"ausertausch erm\"oglichen (z.B. \textit{Homelink, Hospitality Club}), anderseits um Gemeinschaften, bei denen das Kennenlernen von neuen Menschen im Vordergrund steht (z.B. \textit{BeWelcome, Couchsurfing, Global Freeloaders}). \newline
+			\noindent
+			Im Teilbereich \textit{Kleidung} bieten 6 Markteilnehmer (7,7\% Marktanteil) ausschlie\ss lich Gesch\"aftsmodelle aus dem Bereich der Redistributionsm\"arkte in Form von Kleinanzeigenportalen f\"ur Second-Hand Kleidung, an.\newline
+			\noindent
+			Den kleinsten Marktanteil mit lediglich 6,4\% stellt der Teilbereich \textit{Ern\"ahrung}. Am deutschen Markt sind 5 Anbieter aktiv. Innerhalb dieses Teilbereiches entfallen 80\% der Anbieter auf Gesch\"aftsmodelle aus dem Bereich \textit{kollaborative Lebensstile}. Die Angebote erstrecken sich von Portale zur privaten Bewirtung (z.B. \textit{WithLocals, MealShare, EatWith}) bis zu Gemeinschaften zur geteilten Nutzung von Gartenfl\"ache (\textit{Gartenpaten}).  20\% der Anbieter bieten ein Geschäftsmodell aus dem Bereich der Reditributionsm\"arkte (1 Anbieter, \textit{foodsharing.de}).
+		
+	
+	\section{Nutzermotivation}
+		Hamari et al. haben die Motivation von Nutzern von Sharing Economy Gesch\"aftsmodellen untersucht und dabei vier wesentliche Motivatoren herausgearbeitet: Freude an der Nutzung, Nachhaltigkeit, \"okonomische Vorteile und Ansehen. Diese Motivatoren lassen sich dabei in intrinsische Motivatoren, also solche, die direkt aus der Aktivit\"at folgen und extrinsische Motivatoren, also solche, die nur mittelbar mit der Aktivit\"at in Zusammenhang stehen, einteilen. Zu den intrinsischen Motivatoren geh\"oren Freude und Nachhaltigkeit, zu den extrinsischen geh\"oren \"okonomische Vorteile und Ansehen \cite{doi:10.1002/asi.23552}.
+		
+	
+		\subsection{Intrinsische Motivatoren}
+		
+			\subsubsection{Freude}
+				Die Freude an der Aktivit\"at geh\"ort laut Hamari et al. zu den wichtigsten Faktoren bei der Nutzung von Sharing Economy Angeboten. So haben Studien ergeben, dass die Teilnahme an Open-Source Projekten wesentlich dadurch motiviert wird, dass die Teilnehmer Freude an der T\"atigkeit haben und sich selbst als kompetent wahrnehmen. In sozialen Netzwerken und \"ahnlich aufgebauten Diensten wird die Freude an der Teilnahme durch das Gef\"uhl der Zugeh\"origkeit zur Gemeinschaft erzeugt \cite{doi:10.1002/asi.23552}.
+			
+			\subsubsection{Nachhaltigkeit}
+				Die Teilnahme an Sharing Economy Konzepten ist mit hohen Erwartungen an \"okologische und \"okonomische Nachhaltigkeit verbunden. Mit ihnen geht die Hoffnung einher, die \"okologischen, \"okonomischen und sozialen Konsequenzen des Konsums zu optimieren, also einen umweltschonenden Konsum betreiben zu k\"onnen und sozialer Ungerechtigkeit entgegen zu wirken \cite{doi:10.1002/asi.23552}.
+				
+			
+			
+		\subsection{Extrinsische Motivatoren}
+		
+			\subsubsection{\"Okonomische Vorteile}
+				Das Teilen von G\"utern wird allgemein als \"okonomisch rationales Verhalten wahrgenommen. Exklusiver Besitz von G\"utern wird durch kosteng\"unstigere Alternativen ersetzt, wodurch dem Nutzer letztendlich ein konkreter finanzieller Vorteil gegen\"uber dem klassischen Kauf von G\"utern entsteht \cite{doi:10.1002/asi.23552}.
+			
+			\subsubsection{Ansehen}
+				Ein wesentlicher Motivator bei der Teilnahme an Online-Sharing-Communities und Open-Source Projekten ist die Aussicht, einen guten Ruf unter Gleichgesinnten zu erwerben. So hat sich gezeigt, dass die Hingabe zur Gemeinschaft und das Erwerben eines guten Rufs die treibende Kraft bei Wikipedia Editoren ist \cite{doi:10.1002/asi.23552}.
+			
+		\subsection{Gewichtung der Faktoren}
+			Obwohl die erh\"ohte Nachhaltigkeit von Sharing Economy Angeboten nicht von der Hand zu weisen ist, zeigen aktuelle Studien doch, dass die konkrete Motivation zur Teilnahme an Sharing Economy Angeboten weniger selbstlos ist. Eine konsumkritische oder auf Nachhaltigkeit bedachte Grundeinstellung f\"uhrt nicht zwangsl\"aufig zu konkretem nachhaltigen Verhalten\cite{doi:10.1002/asi.23552}. Umgekehrt ist eine solche Einstellung auch nicht erforderlich, um aktiv an Sharing Economy Angeboten teilzunehmen. Obwohl die individuellen Gr\"unde f\"ur eine Teilnahme an Sharing Economy Angeboten zwischen Gesch\"aftsfeldern stark variieren, ist dennoch allen Gesch\"aftsfeldern gemein, dass die geringeren Kosten im Vergleich zu klassischem Konsum \"uber alle Alter- und Geschlechtsgruppen hinweg den wichtigsten Motivator f\"ur die Annahme von Sharing Economy Angeboten darstellt \cite{balck2015,doi:10.1002/asi.23552}.
+		
+		
+	\section{Entwicklung eines Gesch\"afstmodells}
+		In diesem Abschnitt soll ein Gesch\"aftsmodell erarbeitet werden, dass es Nutzern erm\"oglicht \"uber ein Online-Portal Gegenst\"ande, die in physikalischen Boxen hinterlegt sind, untereinander zu teilen. Bei der Erarbeitung des Gesch\"aftsmodells werden die Ergebnisse aus Abschnitt 3 ber\"ucksichtigt um ein f\"ur Nutzer attraktives Modell zu entwerfen.
+		
+	
+		\subsection{Voraussetzungen}
+			Zur Entwicklung dieses Gesch\"aftsmodells wird vorausgesetzt, dass es einen kommerziellen Anbieter von Boxen, die sich elektronisch \"uber weitergebbare, digitale Schl\"ussel \"offnen lassen, und der diese Boxen in ausreichender St\"uckzahl zur Verf\"ugung stellen kann, existiert. Konkret sei hierzu auf die Arbeit von Julian Niklas Haase, René Kern und Cedrik L\"ubke verweisen. Die Funktionsweise der Boxen l\"asst sich also wie folgt zusammenfassen:
+			Ein Nutzer kann Boxen mieten und seine Boxen mittels eines privaten Codes \"offnen und schlie\ss en. Des Weiteren kann der Nutzer f\"ur einzelne Boxen Gast Codes anfordern, die er \"uber eine Schnittstelle an andere registrierte Nutzer weitergeben kann. Zus\"atzlich ist eine Weitergabe an nicht im System registrierte Nutzer m\"oglich, indem der erzeugte Gastcode weitergegeben wird. Diese Gast Codes sind dabei f\"ur einen einmaligen \"offnen/schlie\ss en vorgang g\"ultig und verfallen nach Verwendung, k\"onnen also nicht weiter verwendet werden.
+			
+		
+		\subsection{\"Uberblick}
+			Wie die Marktanalyse ergeben hat existiert eine Marktl\"ucke im Bereich der kollaborativen Lebensstile bei Gebrauchsgegenst\"anden. Das hier erarbeitete Gesch\"aftsmodell soll diese L\"ucke adressieren. Dazu soll ein Portal erstellt werden, dass es den Nutzern erm\"oglicht nur selten genutzte Gebrauchsgegenst\"ande in Boxen zu hinterlegen, aus denen sie von anderen Nutzern unentgeltlich ausgeliehen werden k\"onnen. Das Hauptaugenmerk liegt also auf dem Ausleihvorgang. Dazu existiert ein Online-Portal, in dem f\"ur jedes hinterlegte Objekt eine Anzeige vorhanden ist. Ein interessierter Nutzer kann \"uber diese Anzeige eine Anfrage an den Besitzer des Objekts stellen, in der er angibt wie lange er das betreffende Objekt ausleihen m\"ochte. Der Besitzer erh\"alt nun die Anfrage und kann diese annehmen oder ablehnen. Wird eine Anfrage angenommen erh\"alt der Interessent zwei Gast Codes, einen zum Ausleihen, einen zum Zur\"uckgeben. Erg\"anzend zum Kerngesch\"aft soll das Portal ein Reputationssystem haben, dass einerseits als Entscheidungsgrundlage bei der Annahme oder Ablehnung von Anfragen dient und andererseits als Motivation, sich den Regeln entsprechend zu verhalten. Des weiteren soll es einen Community-Bereich geben, in dem sich Nutzer mit \"ahnlichen Interessen austauschen k\"onnen.
+			
+			
+		\subsection{Das Kerngesch\"aft}
+			Wie bereits erw\"ahnt liegt der Fokus des Gesch\"afts auf dem Leihen und Verleihen von Gebrauchsgegenst\"anden. Dazu registriert sich der Nutzer im System und kann dort Gegenst\"ande anbieten oder ausleihen.
+			
+			\subsubsection{Anbieten von Gegenst\"anden}
+				Um einen Gegenstand anzubieten erstellt der Besitzer im Online-Portal eine Anzeige mit aussagekr\"aftiger Beschreibung des Gegenstands. Diese Beschreibung umfasst dabei mindestens die Artikelbezeichnung, eine kurze Beschreibung und die  Abmessungen sowie optional ein Foto des Gegenstandes. Dem Gegenstand wird dann automatisch eine Box in der passenden Gr\"o\ss e zugeordnet, die der Besitzer mit seinem privaten Code \"offnen kann. Sobald der Besitzer den Gegenstand in der Box hinterlegt hat wird die Anzeige im Portal freigegeben und Interessenten k\"onnen im Online-Portal Anfragen an den Besitzer stellen. Sobald eine Anfrage f\"ur einen Gegenstand gestellt wird, wird der Besitzer dar\"uber informiert und kann dann anhand der Reputation des Interessenten entscheiden, ob er die Anfrage annimmt oder ablehnt. Wird eine Anfrage angenommen werden automatisch zwei Gast Codes f\"ur die Box, die den fraglichen Gegenstand enth\"alt, erstellt und an den Interessenten \"ubermittelt. Der Besitzer eines Gegenstandes kann mit seinem privaten Code auf seine eigenen Gegenst\"ande zugreifen und diese bliebig aus der Box entnehmen, solange der betreffende Gegenstand nicht verliehen ist.
+				
+			
+			
+			\subsubsection{Ausleihen von Gegenst\"anden}
+				M\"ochte ein Nutzer einen Gegenstand leihen sucht er diesen im Online-Portal und kann dort \"uber die Benutzeroberfl\"ache eine Anfrage an den Besitzer stellen. In dieser Anfrage gibt der Interessent an, f\"ur wie lange er den Gegenstand Nutzen m\"ochte. Der Besitzer wird \"uber die Anfrage informiert und trifft eine Entscheidung, ob er den Gegenstand f\"ur die angegebene Dauer verleihen m\"ochte oder nicht. Nimmt der Besitzer die Anfrage an werden dem Interessenten zwei Gast Codes f\"ur die entsprechende Box mitgeteilt und er kann den Gegenstand entnehmen. Vor Ablauf des festgelegten Nutzungszeitraums bringt der Interessent den Gegenstand zur\"uck zur Box, die er mit dem zweiten Gast Code \"offnen kann, und legt den Gegenstand wieder hinein.
+				
+			
+			
+		\subsection{Der Community-Bereich}
+			Mit dem Community-Bereich soll ein zus\"atzlicher Nutzen erzeugt werden. Zum einen soll ein Zugeh\"origkeitsgef\"uhl erzeugt werden und dar\"uber die Freude an der Nutzung des Portals erh\"oht werden, zum anderen ist es den Nutzern hier m\"oglich, innerhalb der Gemeinschaft einen Ruf aufzubauen. Au\ss erdem soll auch der konkrete Nutzen des Verleihportals erh\"oht werden, indem hier unter Anderem auch Fragen zu konkreten Gegenst\"anden und deren Verwendung gestellt werden k\"onnen. Aber auch Diskussionen auf h\"oherer Ebene sollen hier m\"oglich sein. Beispielsweise kann ein Nutzer, der sich f\"ur Holzverarbeitung interessiert, nicht nur im Portal die entsprechenden Werkzeuge leihen, sondern auch im Community-Bereich mit gleichgesinnten Nutzern in Kontakt treten und sich so auch Inspiration holen und Zugriff auf Know-How erhalten. Denkbar ist hier die nutzergesteuerte Erstellung von Interessengruppen, in denen sich Gleichgesinnte finden k\"onnen.
+			
+		
+		
+		\subsection{Das Reputationssystem}
+			Das Reputationssystem soll in erster Linie als Entscheidungsgrundlage f\"ur Besitzer von Gegenst\"anden dienen. Die Reputation eines Nutzers soll dabei durch Punkte dargestellt werden. Gibt ein Nutzer einen geliehenen Gegenstand innerhalb der Frist zur\"uck, so bekommt er Punkte gutgeschrieben, verpasst ein Nutzer die Frist werden ihm Punkte abgezogen. Dar\"uber hinaus sollen Anbieter von Gegenst\"anden f\"ur jeden Gegenstand den sie anbieten monatlich Reputationspunkte erhalten und zus\"atzlich auch f\"ur jedes Mal, dass ein Gegenstand tats\"achlich verliehen wird. Dieses Vorgehen dient dazu, dem Nutzer mitzuteilen, dass sein Beitrag zur Gemeinschaft wahrgenommen und wertgesch\"atzt wird. Um Missbrauch zu vermeiden, theoretisch w\"urde ein Nutzer, der Gegenst\"ande vermietet, kaum  Auswirkungen sp\"uren wenn er Gegenst\"ande wiederholt  versp\"atet zur\"uckgibt, bietet sich das folgende Vorgehen an: W\"ahrend das zur Verf\"ugung stellen von Gegenst\"anden auf monatlicher Basis mit Punkten honoriert wird, wird eine Versp\"atete R\"uckgabe auf t\"aglicher Basis mit Punktabzug bestraft, so dass die Rate, mit der Reputation abgebaut wird den Aufbau von Reputation übersteigt.
+			
+		
+		
+		\subsection{Finanzierung}
+			Durch die Anmietung der Boxen, Versicherungsbeitr\"age sowie das Betreiben von Servern entstehen laufende Kosten, die es unm\"oglich machen den Dienst v\"ollig kostenfrei zur Verf\"ugung zu stellen. Um diese Kosten zu decken soll sich das Portal \"uber monatliche Beitr\"age der Nutzer finanzieren. F\"ur diesen Beitrag ist es den Nutzern dann m\"oglich, ohne weitere Kosten auf alle zur Verf\"ugung stehenden Gegenst\"ande zuzugreifen.
+		
+		
+		\subsection{Probleme}
+		
+			\subsubsection{Das Initialproblem}
+				Gerade in der Anfangsphase ist davon auszugehen, dass nur wenige Gegenst\"ande zur Verf\"ugung stehen. Um  dennoch einen Kundenstamm aufzubauen ist es erforderlich, Anreize zu schaffen Gegenst\"ande zu Verf\"ugung zu stellen. Da der geringe Kostenfaktor der Hauptgrund f\"ur die Nutzung von Sharing Economy Angeboten darstellt erscheint es sinnvoll, finanzielle Anreize zu schaffen. Dies k\"onnte so aussehen, dass man Nutzern, die tats\"achlich Gegenst\"ande zur Verf\"ugung stellen, einen Rabatt auf die monatliche Geb\"uhr gew\"ahrt. Gerade in der Anfangsphase ist es sinnvoll, diesen Nutzern die Geb\"uhr vollst\"andig zu erlassen. Als weiteres Mittel gegen eine Knappheit von Gegenst\"anden kann Startkapital verwendet werden, besonders n\"utzliche Gegenst\"ande selbst anzuschaffen und verf\"ugbar zu machen.
+			
+			
+			\subsubsection{Haftung im Schadensfall}
+				Selbst bei sorgsamster Nutzung ist nicht auszuschlie\ss en, dass geliehene Gegenst\"ande Schaden nehmen oder gestohlen werden. Es muss also eine M\"oglichkeit gefunden werden, den Schaden zu regulieren, ohne ihn auf die Nutzer abzuw\"alzen. Die Recherche in der Marktanalyse hat jedoch gezeigt, dass Versicherungen durchaus bereit sind, Sharing Economy Gesch\"aftsmodelle gegen genau diese Art von Schaden zu versichern. Man kann daher optimistisch sein eine gangbare L\"osung zu finden.
+				
+			
+			
+			\subsubsection{R\"uckgabe von Gegenst\"anden}
+				Die technische Pr\"ufung, ob ein Gegenstand zur\"uckgegeben wurde, gestaltet sich schwierig, ohne weitere Sensorik in den Boxen sogar unm\"oglich. Eine einfache Pr\"ufung der \"Offnung und Schlie\ss ung der Box sagt nichts \"uber ihren Inhalt aus und kann ohne nennenswerten Aufwand \"uberlistet werden. Dieses Problem hat keine triviale L\"osung und die detaillierte Erarbeitung eines L\"osungsansatz liegt au\ss erhalb des Rahmens dieser Arbeit. Dennoch soll im Folgenden ein theoretischer L\"osungsansatz dargelegt werden. Da der Einsatz weiterer Sensorik erforderlich ist, ist es denkbar die Boxen mit Kameras auszustatten und den Besitzer zu informieren, dass sein Gegenstand zurückgegeben wurde. Anhand des Kamerabildes kann der Besitzer die Rückgabe des Gegenstandes bestätigen. Diese Kamerabilder können, in Kombination mit der Rückmeldung des Besitzers, verwendet werden, um ein neuronales Netzwerk zu trainieren und so anhand von Bildklassifizierung den Rückgabeprozess schrittweise zu automatisieren. Eine konkrete Implementierung dieses Systems kann Gegenstand weiterf\"uhrender Arbeit sein. 
+				
+			
+			
+			\subsubsection{Versp\"atete R\"uckgabe}
+				Ohne sp\"urbare Konsequenzen ist die (rechtzeitige) R\"uckgabe von Gegenst\"anden optional. Das Reputationssystem alleine ist nicht geeignet eine R\"uckgabe sicherzustellen, denn der Verlust von Reputationspunkten ist im Verh\"altnis zum Wert des Gegenst\"anden verschwindend gering. Es bedarf also einer h\"arteren Sanktionierung bei versp\"ateter R\"uckgabe. Als geeignetes Mittel erscheinen hier t\"agliche Strafgeb\"uhren. Ein Teil der eingenommenen Strafgeb\"uhren sollte dabei an den Besitzer des Gegenstandes weitergegeben werden, um ihn f\"ur seine Sorge zu kompensieren und daf\"ur zu sorgen, dass er nicht das Vertrauen in die Plattform verliert. 
+			
+			
+		\subsection{Vorteile f\"ur den Nutzer}
+			Bei der Erstellung des Gesch\"aftsmodells wurde versucht auf die in Abschnitt 3 aufgezeigten Motivatoren f\"ur die Nutzung von Sharing Economy Gesch\"aftsmodellen einzugehen. Abschlie\ss end soll das erarbeitete Gesch\"aftsmodell gegen diese Motivatoren evaluiert werden. Als wichtigsten Faktor f\"ur die Nutzung von Sharing Economy gibt die Literatur \"okonomische Vorteile an. Das Gesch\"aftsmodell bietet seinen Kunden Zugang zu einer potentiell sehr gro\ss en Auswahl von Produkten, wobei die anfallenden Kosten deutlich geringer sind als die Beschaffungskosten in anderen Gesch\"aftsmodellen wie dem klassischen Erwerb eines Produkts. Da au\ss er der monatlichen Geb\"uhr keine weiteren Kosten anfallen, k\"onnen damit sogar geringere Nutzungskosten als in anderen Sharing Economy Gesch\"aftsmodellen wie Produkt-Dienstleistungssystemen, bei denen der Nutzer f\"ur die Nutzung eines Produkts zahlt, erzielt werden. Damit ist zu sagen, dass der Nutzer offensichtliche \"okonomische Vorteile aus der Nutzung des Online-Portals zieht.
+			Auch dem Bed\"urfnis nach Nachhaltigkeit wird durch die inh\"arente Nachhaltigkeit des Teilens von G\"utern Rechnung getragen. Umso mehr G\"uter geteilt werden, umso weniger werden die Ressourcen der Erde f\"ur die Produktion neuer G\"uter strapaziert. Des weiteren wird Menschen, die aufgrund finanzieller H\"urden sonst keinen Zugang zu diesen G\"utern h\"atten ein Zugang zu diesen erm\"oglicht. Der Community-Bereich soll Nutzern die M\"oglichkeit geben sich untereinander aus"-zu"-tau"-schen. Neben der M\"oglichkeit, zus\"atzliches Know-How zu erwerben und das eigene Wissen mit anderen zu teilen soll er auch das Bed\"urfnis nach Gemeinschaft erf\"ullen und damit die Freude, die ein Nutzer aus der Nutzung des Portals gewinnt, erh\"ohen. Neben dem Ansehen, dass ein Nutzer durch seine Beitr\"age im Community-Bereich implizit erhalten kann signalisiert das Reputationssystem anderen Nutzern, bei wem es sich um wertvolle Mitglieder der Gemeinschaft handelt, die einen wesentlichen Beitrag zum Erfolg der Plattform leisten.
+	
+\end{multicols}
+
+\bibliography{literatur}
+\bibliographystyle{alpha}
+\newpage
+
+\appendix
+	\section{Untersuchte Markteilnehmer}
+		\begin{table}[h]
+			\begin{tabular}{lll}
+				Name & Kategorie & URL\\ \hline
+				Allygator Shuttle & kollaborativer Lebensstil & \url{www.allygatorshuttle.com}\\
+				Ampido & Produkt-Dienstleistungssystem & \url{www.ampido.com} \\
+				Besser Mitfahren & kollaborativer Lebensstil & \url{www.bessermitfahren.de}\\
+				Blablacar & kollaborativer Lebensstil & \url{www.blablacar.de}\\
+				Bringhand & kollaborativer Lebensstil & \url{www.bringhand.de}\\
+				Campanda & Produkt-Dienstleistungssystem & \url{www.campanda.de}\\
+				Drivy & Produkt-Dienstleistungssystem & \url{www.drivy.de}\\
+				Entrusters & kollaborativer Lebensstil & \url{www.entrusters.com}\\
+				Fahrgemeinschaft.de & kollaborativer Lebensstil & \url{www.fahrgemeinschaft.de}\\
+				Flinc & kollaborativer Lebensstil & \url{www.flinc.de}\\
+				Getaway & Produkt-Dienstleistungssystem & \url{www.get-a-way.de}\\
+				List N Ride & Produkt-Dienstleistungssystem & \url{www.listnride.de}\\
+				MatchRiderGo & kollaborativer Lebensstil & \url{www.matchridergo.de}\\
+				MiFaZ & kollaborativer Lebensstil & \url{www.mifaz.de}\\
+				MyRobin & kollaborativer Lebensstil & \url{www.myrobin.de}\\
+				ParkBob & Produkt-Dienstleitsungssystem & \url{www.parkbob.com}\\
+				Parkinglist & Produkt-Dienstleistungssystem & \url{www.parkinglist.de}\\
+				Parkonaut & kollaborativer Lebensstil & \url{www.parkonaut.de}\\
+				Parkplace & Produkt-Dienstleistungssystem & \url{www.parkplace.de}\\
+				Parku & Produkt-Dienstleistungssystem & \url{www.parku.com/de}\\
+				PaulCamper & Produkt-Dienstleistungssystem & \url{https://paulcamper.de}\\
+				PiggyBee & kollaborativer Lebensstil & \url{www.piggybee.com}\\
+				ShareACamper & Produkt-Dienstleistungssystem & \url{www.shareacamper.de}\\
+				Sharoo & Produkt-Dienstleistungssystem & \url{www.sharoo.com}\\
+				Snappcar & Produkt-Dienstleistungssystem & \url{www.snappcar.de}\\
+				Spinlister & Produkt-Dienstleistungssystem & \url{www.spinlister.com}\\
+				Uber & kollaborativer Lebensstil & \url{www.uber.com/de/de}\\
+				Yescapa & Produkt-Dienstleistungssystem & \url{www.yescapa.de}\\
+				Zeit42 & Produkt-Dienstleistungssystem & \url{www.zeit42.de}
+			\end{tabular}
+		\caption{Mobilit\"at}
+		\label{tab:Mobilit\"at}
+		\end{table}
+	
+		\begin{table}[h]
+			\begin{tabular}{lll}
+				Name & Kategorie & URL\\ \hline
+				Alles und Umsonst & Redistributionsmarkt & \url{www.alles-und-umsonst.de}\\
+				Craigslist & Redistributionsmarkt & \url{berlin.craigslist.com}\\
+				Ebay & Redistributionsmarkt & \url{www.ebay.com}\\
+				Etsy & Redistributionsmarkt & \url{www.etsy.com}\\
+				FairLeihen & kollaborativer Lebensstil & \url{berlin.fairleihen.de}\\
+				Fairmondo & kollaborativer Lebensstil & \url{www.fairmondo.de}\\
+				Freecycle & Redistributionsmarkt & \url{www.freecycle.org}\\
+				Frents & Produkt-Dienstleistungssystem & \url{www.frents.com}\\
+				Gebraucht.de & Redistributionsmarkt & \url{www.gebraucht.de}\\
+				Markt.de & Redistributionsmarkt & \url{www.markt.de}\\
+				Nebenan.de & \multicolumn{1}{p{4cm}}{Produkt-Dienstleistungssystem, Redistributionsmarkt, kollaborativer Lebensstil} &  \url{www.nebenan.de}\\
+				Quoka & Redistributionsmarkt & \url{www.quoka.de}\\
+				Sharely & Produkt-Dienstleistungssystem & \url{www.sharely.ch}\\
+				Shpock & Redistributionsmarkt & \url{www.shpock.com/de-de}\\
+				Tauschgnom & Redistributionsmarkt & \url{www.tauschgnom.de}\\
+				Tauschticket & Redistributionsmarkt & \url{www.tauschticket.de}\\
+				UserTwice & Produkt-Dienstleistungssystem & \url{www.usetwice.at}\\
+				Utiluru & Produkt-Dienstleisungssystem & \url{www.utiluru.com}\\
+				WillHaben & \multicolumn{1}{p{4cm}}{Produkt-Dienstleistungssystem, Redistributionsmarkt} & \url{www.willhaben.at}
+			\end{tabular}
+		\caption{Gebrauchsgegenst\"ande}
+		\label{tab:Gebrauchsgegenst\"ande}
+		\end{table}
+	
+		\begin{table}[h]
+			\begin{tabular}{lll}
+				Name & Kategorie & URL\\ \hline
+				9flats & Produkt-Dienstleistungssystem & \url{www.9flats.com/de}\\
+				AirBnB & Produkt-Dienstleistungssystem & \url{www.airbnb.de}\\
+				BeWelcome & kollaborativer Lebensstil & \url{www.bewelcome.org}\\
+				CampInMyGarden & Produkt-Dienstleistungssystem & \url{www.campinmygarden.com}\\
+				Couchsurfing & kollaborativer Lebensstil & \url{www.couchsurfing.com}\\
+				Global Freeloaders & kollaborativer Lebensstil & \url{www.globalfreeloaders.com}\\
+				Gloveler & Produkt-Dienstleistungssystem & \url{www.gloveler.com}\\
+				HomeExchange & kollaborativer Lebensstil & \url{www.homeexchange.com}\\
+				Homelink & kollaborativer Lebensstil & \url{www.homelink.de}\\
+				Hospitality Club & kollaborativer Lebensstil & \url{www.hospitalityclub.org}\\
+				HouseTrip & Produkt-Dienstleistungssystem & \url{www.housetrip.de}\\
+				Nestpick & Produkt-Dienstleistungssystem & \url{www.nestpick.com/de}\\
+				Nightswapping & Produkt-Dienstleistungssystem & \url{www.nightswapping.com/de-de}\\
+				Roomsurfer & Produkt-Dienstleistungssystem & \url{www.roomsurfer.com}\\
+				Staydu & \multicolumn{1}{p{4cm}}{Produkt-Dienstleistungssystem, kollaborativer Lebensstil} & \url{www.staydu.com}\\
+				Trustroots & kollaborativer Lebensstil & \url{www.trustroots.org}\\
+				WarmShowers & kollaborativer Lebensstil & \url{https://de.warmshowers.org/}\\
+				Wimdu & Produkt-Dienstleistungssystem & \url{www.wimdu.com}
+			\end{tabular}
+		\caption{\"Ubernachtung}
+		\label{tab:\"ubernachtung}
+		\end{table}
+	
+		\begin{table}[h]
+			\begin{tabular}{lll}
+				Name & Kategorie & URL\\ \hline
+				Klamottenbox & Redistributionsmarkt & \url{www.klamottenbox.de}\\
+				Kleiderkorb & Redistributionsmarkt & \url{www.kleiderkorb.de}\\
+				Kleiderkreisel & Redistributionsmarkt & \url{www.kleiderkreisel.de}\\
+				M\"adchenflohmarkt & Redistributionsmarkt & \url{www.maedchenflohmarkt.de}\\
+				Mamikreisel & Redistributionsmarkt & \url{www.mamikreisel.de}\\
+				Rebelle & Redistributionsmarkt & \url{www.rebelle.de}
+			\end{tabular}
+		\caption{Kleidung}
+		\label{tab:kleidung}
+		\end{table}
+	
+		\begin{table}[h]
+			\begin{tabular}{lll}
+				Name & Kategorie & URL \\ \hline
+				EathWith & kollaborativer Lebensstil & \url{www.eatwith.com}\\
+				Foodsharing & kollaborativer Lebensstil & \url{www.foodsharing.de}\\
+				Gartenpaten & kollaborativer Lebensstil & \url{www.gartenpaten.de}\\
+				Mealsharing & kollaborativer Lebensstil & \url{www.mealsharing.com}\\
+				With Locals & kollaborativer Lebensstil & \url{www.withlocals.com}
+			\end{tabular}
+		\caption{Ern\"ahrung}
+		\label{tab:ern\"ahrung}
+		\end{table}
+
+			\begin{table}[h]
+				\begin{tabular}{ll}
+					Name & Begr\"undung \\ \hline
+					Karzoo & nur in Frankreich tätig \\
+					Jaspr & Seite nicht erreichbar \\
+					Kinderado & Seite verweist auf \url{www.frage.de}, Betrieb eingestellt\\
+					Kleiderei & Online-Betrieb eingestellt, nur noch als Laden in K\"oln\\
+					LaZooz & App nicht verf\"ugbar \\
+					Leih-ein-Buch & Webseite nicht erreichbar\\
+					Literatoo & verweist auf \url{www.chrisitan-klisch.de}\\
+					Parkbob & erf\"ullt nicht das Kriterium des Nutzergetrieben austauschs\\
+					Croove & Webseite nicht erreichbar\\
+					Drobhub & Webseite nicht erreichbar\\
+					GiveBox & Bewirbt aufgestellte Boxen, Hauptaspekt nicht Online\\
+					Die Tauschb\"orse & Webseite nicht erreichbar\\
+					HalloCamper & Webseite nicht erreichbar\\
+					Packmule & Webseite nicht erreichbar\\
+					Peerby & Webseite auf niederl\"andisch\\
+					Raumobil & Bietet Consulting im Bereich Mobilit\"at\\
+					RideLink & Webseite nicht erreichbar\\
+					Share-my-Stuff & Webseite nicht erreichbar\\
+					Sh\"are-a-Taxi & Bietet jetzt als \url{shaere.me} Consulting im Bereich Mobilit\"at\\
+					Stuffle & nicht mehr am Markt\\
+					Tausch-dich-fit & Webseite enth\"alt nur {\glqq Hallo Welt\grqq}-Post\\
+					Swapy & Webseite nicht mehr erreichbar\\
+					Tauschbook & Webseite nicht mehr erreichbar\\
+					Thangs & eingestellt\\
+					Velogistics & derzeit eingestellt, wird aber \"uberarbeitet\\
+					Vintage Kids & Webseite nicht mehr erreichbar bzw. kein sinnvolles Angebot\\
+					VizEat & Von EatWith aufgekauft\\
+					Wifis.org & Nicht wiklich Sharing Economy
+
+				\end{tabular}
+				\caption{ausgelassene Markteilnehmer}
+			\end{table}
+\end{document}
